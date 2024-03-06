@@ -1,0 +1,384 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <meta name="description" content="Lorem ipsum dolor sit amet." />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="lorem, ipsum, dolor, sit, amet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <!-- Swiper JS -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+    ></script>
+    <script defer src="/src/js/main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="header-white" data-active="true">
+        <img
+          class="header__logo"
+          src="/src/assets/icons/logo.svg"
+          alt="eleven logo"
+        />
+      </a>
+    </header>
+    <main class="main">
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <video
+          class="video-overlay"
+          autoplay
+          loop
+          muted
+          playsinline
+          preload="auto"
+          poster="/src/assets/images/hero-overlay.jpg"
+        >
+          <source src="/src/assets/video-overlay.mp4" type="video/mp4" />
+        </video>
+        <div class="video-overlay-after"></div>
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="headline-wrapper">
+              <h1 class="hero__headline typing-demo"></h1>
+            </div>
+          </div>
+        </div>
+        <a class="scroll-down-btn" href="#"
+          ><img src="/src/assets/icons/down-arrow-icon.svg" alt="donw arrow"
+        /></a>
+      </section>
+      <!-- end of hero section -->
+      <!-- ABOUT US SECTION -->
+      <section class="about">
+        <div class="about__wrapper">
+          <h2 class="about-heading">
+            <img src="/src/assets/icons/logo.svg" alt="eleven av logo" />
+          </h2>
+          <div class="about__inner-wrapper">
+            <h3 class="about-subheading">
+              Dobrodošli na stranice naše video produkcije!
+            </h3>
+            <div class="about__text-wrapper">
+              <p>
+                ELEVEN AV specijaliziran  je za raznolike usluge profesionalnog
+                video stvaralaštva, uključujući prijenose uživo, roizvodnju
+                podcasta i TV emisija, korporativne i  promotivne spotove te
+                snimanje svih vaših događaja koje želite trajno i profesionalno
+                zabilježiti.
+              </p>
+              <p>
+                Iza nas su godine rada u medijima i produkcijskim kućama, tisuće
+                sati provedenih na terenu, na snimanjima, u montaži i
+                prijenosima uživo. Sa strašću i predanošću, stvaramo
+                visokokvalitetne sadržaje koji će vas oduševiti i istaknuti vašu
+                priču na najbolji mogući način.
+              </p>
+            </div>
+            <span class="about-last-heading"
+              >Otkrijte kako naša kreativnost može rpetvoriti vaše ideje u
+              stvarnost!</span
+            >
+          </div>
+        </div>
+      </section>
+      <!-- PORTFOLIO SECTION -->
+      <section class="portfolio">
+        <div class="portfolio__wrapper container">
+          <h2 class="h2-heading dark-text">primjeri</h2>
+          <div class="portfolio__inner-wrapper">
+            <div class="portfolio-row">
+              <div class="portfolio__offer">
+                <img
+                  src="/src/assets/icons/produkcija-icon.svg"
+                  alt="produckija icon"
+                  class="portfolio-icon"
+                />
+                <div class="portfolio__offer-body">
+                  <h3 class="h3-heading portfolio-offer-heading">
+                    produkcija & postprodukcija
+                  </h3>
+                  <p class="dark-text">
+                    Snimanje i montaža svih formata: korporativni video, video
+                    za društvene mreže, ENG i news, TV emisije, podcasti.
+                  </p>
+                </div>
+              </div>
+              <div class="portfolio__offer">
+                <img
+                  src="/src/assets/icons/prijenos-icon.svg"
+                  alt="prijenos icon"
+                  class="portfolio-icon"
+                />
+                <div class="portfolio__offer-body">
+                  <h3 class="h3-heading portfolio-offer-heading">
+                    prijenosi uživo
+                  </h3>
+                  <p class="dark-text">
+                    Od podcasta do TV emisija, pomoć pri realizaciji ili
+                    kompletna realizacija projekata.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="/src/assets/images/yt-link.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/src/assets/images/yt-link.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/src/assets/images/yt-link.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/src/assets/images/yt-link.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/src/assets/images/yt-link.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/src/assets/images/yt-link.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="/src/assets/images/yt-link.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="see-more-btn-wrapper">
+              <a role="button" class="see-more-btn" href="radovi.html"
+                >Vidi detaljnije</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of portfolio section -->
+      <!-- CONTACT SECTION -->
+      <section class="contact">
+        <div class="container">
+          <div class="contact__wrapper container">
+            <h2 class="h2-heading">KONTAKT</h2>
+          </div>
+          <div class="contact__inner-wrapper">
+            <div class="contact-form">
+              <p class="contact-form-paragraph">
+                Ukoliko imate neki upit ili trebate ponudu za neku od naših
+                usluga, slobodno nam se javite
+              </p>
+              <div class="consult__inner-wrapper ui-wrapper">
+                <form class="consult-email" id="emailForm">
+                  <input
+                    type="email"
+                    id="userEmail"
+                    class="consult-mail__input"
+                    placeholder="mail@gmail.com"
+                    required
+                  />
+                  <button type="submit" class="consult-mail__submit-btn">
+                    Zatraži ponudu
+                    <img
+                      src="src/assets/icons/send-icon.svg"
+                      aria-hidden="true"
+                    />
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="kontakt__animation">
+              <h3 class="h3-heading kontakt-info-heading">
+                Možete nas naći i na:
+              </h3>
+              <div class="kontakt__socials">
+                <a href="#"
+                  ><img
+                    src="/src/assets/icons/linkedin-icon.svg"
+                    aria-hidden="true"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="/src/assets/icons/gmail-icon.svg"
+                    aria-hidden="true"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="/src/assets/icons/whatsapp-icon.svg"
+                    aria-hidden="true"
+                /></a>
+              </div>
+              <div class="kontakt__right-col--inner">
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-white.svg"
+                  aria-hidden="true"
+                  class="scroll-white-logo"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+              </div>
+              <div class="kontakt__right-col--inner">
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-white.svg"
+                  aria-hidden="true"
+                  class="scroll-white-logo"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+                <img
+                  src="src/assets/images/logo-kontakt-gray.svg"
+                  aria-hidden="true"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          class="blue-effect"
+          src="/src/assets/images/blue-effect-img.png"
+          aria-hidden="true"
+        />
+      </section>
+      <!-- end of contact section -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner-wrapper">
+            <img src="/src/assets/icons/logo.svg" alt="eleven av logo" />
+            <div class="footer__content">
+              <div class="footer-row">
+                <div class="footer__info">
+                  <p>4140 Parker Rd. Allentown, New Mexico 31134</p>
+                  <p>(704) 555-0127</p>
+                  <p>Sed ut perspiciatis unde omnis iste natus</p>
+                </div>
+              </div>
+              <div class="footer-row footer-row--second">
+                <nav class="footer__nav">
+                  <ul class="footer__list">
+                    <li class="footer__item">
+                      <a class="footer__link" href="#">Početna</a>
+                    </li>
+                    <li class="footer__item">
+                      <a class="footer__link" href="#">Primjeri radova</a>
+                    </li>
+                    <li class="footer__item">
+                      <a class="footer__link" href="#">Kontakt</a>
+                    </li>
+                  </ul>
+                </nav>
+                <nav class="footer__nav footer__nav--regulativa">
+                  <ul class="footer__list">
+                    <li class="footer__item">
+                      <a class="footer__link" href="#">Politika privatnosti</a>
+                    </li>
+                    <li class="footer__item">
+                      <a class="footer__link" href="#">Uvjeti korištenja</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="copyright__wrapper">
+            <p>Copyright © 2024 - Sva prava pridržana.</p>
+            <div class="copyright-right-row">
+              <strong>GALAC-DESIGN</strong>
+              <p>Obrt za računalno programiranje</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
