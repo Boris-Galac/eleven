@@ -33,7 +33,7 @@
       <!-- HERO SECTION -->
       <section class="hero">
         <video
-          class="video-overlay"
+          class="video-overlay mobile-video"
           autoplay
           loop
           muted
@@ -41,7 +41,24 @@
           preload="auto"
           poster="/src/assets/images/hero-overlay.jpg"
         >
-          <source src="/src/assets/video-overlay.mp4" type="video/mp4" />
+          <source
+            src="/src/assets/hero-video-overlay-mobile.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <video
+          class="video-overlay desktop-video"
+          autoplay
+          loop
+          muted
+          playsinline
+          preload="auto"
+          poster="/src/assets/images/hero-overlay.jpg"
+        >
+          <source
+            src="/src/assets/hero-video-overlay (2).mp4"
+            type="video/mp4"
+          />
         </video>
         <div class="video-overlay-after"></div>
         <div class="container">

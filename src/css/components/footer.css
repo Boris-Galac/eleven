@@ -28,8 +28,6 @@
   display: grid;
   gap: 3rem;
 }
-.footer__nav--regulativa {
-}
 .copyright {
   background-color: var(--black);
   padding: 2rem;
