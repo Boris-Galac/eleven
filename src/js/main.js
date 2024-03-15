@@ -1,6 +1,6 @@
 if (!window.location.href.includes("radovi")) {
   let txt = `profesionalna video produkcija za vas`;
-  let speed = 100; // Speed of typing in milliseconds
+  let speed = 50; // Speed of typing in milliseconds
   let i = 0;
 
   function typeWriter() {

@@ -55,7 +55,7 @@
   font-size: clamp(2.5rem, 7vw, 4rem);
   text-align: center;
   font-weight: bolder;
-  animation: h1-heading 2s forwards 5s;
+  animation: h1-heading 2s forwards 10s;
 }
 @keyframes h1-heading {
   to {

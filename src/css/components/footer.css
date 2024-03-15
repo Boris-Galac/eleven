@@ -4,6 +4,9 @@
   padding-block: var(--padding-block-section-6);
   padding-bottom: 15rem;
 }
+.footer__logo {
+  width: min(100%, 20rem);
+}
 .footer__link {
   color: var(--white);
   font-size: 1.1rem;
